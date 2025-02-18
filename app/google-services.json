@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "759911273884",
+    "project_id": "recipe-genius-5e15e",
+    "storage_bucket": "recipe-genius-5e15e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759911273884:android:7c34b1d1087c615091a459",
+        "android_client_info": {
+          "package_name": "com.example.recipegenius"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759911273884-j5bruoig0dls736u17kidae7lkkp5f6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARS1J4XDb_cYAcC1rj3hheRuVT7WsUXek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759911273884-j5bruoig0dls736u17kidae7lkkp5f6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
