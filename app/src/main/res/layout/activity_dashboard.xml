@@ -13,7 +13,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:title="Recipe Genius"
+            android:title="@string/app_title"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             android:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
@@ -22,32 +22,26 @@
             android:id="@+id/ingredientsInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Enter ingredients"
+            android:hint="@string/ingredients_hint"
+            android:inputType="text"
+            android:autofillHints="ingredients"
             android:padding="16dp" />
 
         <Button
             android:id="@+id/searchButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Search Recipe" />
+            android:text="@string/search_recipe" />
 
         <!-- Other content goes here -->
     </LinearLayout>
 
     <!-- Navigation Drawer (Sidebar) -->
-    <androidx.drawerlayout.widget.NavigationView
+    <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigationView"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="start">
-
-        <!-- Menu items for the drawer -->
-        <menu xmlns:android="http://schemas.android.com/apk/res/android">
-            <item
-                android:id="@+id/menu_logout"
-                android:title="Logout"
-                android:icon="@drawable/ic_logout" />
-        </menu>
-
-    </androidx.drawerlayout.widget.NavigationView>
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
 </androidx.drawerlayout.widget.DrawerLayout>

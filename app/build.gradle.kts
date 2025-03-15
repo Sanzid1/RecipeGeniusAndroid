@@ -43,7 +43,7 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation("androidx.drawerlayout:drawerlayout:1.1.1")
-    implementation("com.google.android.material:material:1.6.0") // For Material components like navigation
+    implementation("com.google.android.material:material:1.11.0") // For Material components like navigation
     
     // Retrofit for API calls
     implementation("com.squareup.retrofit2:retrofit:2.9.0")

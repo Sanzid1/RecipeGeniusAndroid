@@ -2,4 +2,8 @@
     <string name="app_name">Recipe Genius</string>
     <string name="welcome_to_home_activity">Welcome to Home Activity!</string>
     <string name="default_web_client_id">YOUR_WEB_CLIENT_ID</string>
+<string name="app_title">Recipe Genius</string>
+<string name="ingredients_hint">Enter ingredients</string>
+<string name="search_recipe">Search Recipe</string>
+<string name="logout_label">Logout</string>
 </resources>
