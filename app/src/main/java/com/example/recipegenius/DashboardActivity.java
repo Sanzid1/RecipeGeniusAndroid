@@ -2,6 +2,7 @@ package com.example.recipegenius;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -50,5 +51,11 @@ public class DashboardActivity extends AppCompatActivity {
                 finish();
             });
         }
+        
+        // Set up search button to navigate to Recipe Search Activity
+        Button searchButton = findViewById(R.id.searchButton);
+        searchButton.setOnClickListener(v -> {
+            startActivity(new Intent(DashboardActivity.this, RecipeSearchActivity.class));
+        });}
     }
 }
